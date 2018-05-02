@@ -39,7 +39,7 @@ public class PropertiesUtil {
 	        properties = new Properties();
 	        InputStreamReader in = null;
 	        try {
-	        	BufferedInputStream buffer = new BufferedInputStream(new FileInputStream("config/news.properties"));
+	        	BufferedInputStream buffer = new BufferedInputStream(new FileInputStream("src/com/liuwei/config/news.properties"));
 	        	in = new InputStreamReader(buffer, "utf-8");
 	        	properties.load(in);
 

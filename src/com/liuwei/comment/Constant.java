@@ -1,5 +1,8 @@
 package com.liuwei.comment;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Constant {
 	
 	private Constant() {
@@ -83,5 +86,37 @@ public class Constant {
 
 	public static final String NONE_CONTENT = "没有获取到任何内容";
 
-
+	public static final Map<String,String> vnewsMap = new HashMap<String, String>(30);
+	static {
+		vnewsMap.put(PARSER_IDS[0], "头条");
+		vnewsMap.put(PARSER_IDS[1], "社会");
+		vnewsMap.put(PARSER_IDS[2], "历史");
+		vnewsMap.put(PARSER_IDS[3], "电台");
+		vnewsMap.put(PARSER_IDS[4], "军事");
+		vnewsMap.put(PARSER_IDS[5], "航空");
+		vnewsMap.put(PARSER_IDS[6], "要文");
+		vnewsMap.put(PARSER_IDS[7], "娱乐");
+		vnewsMap.put(PARSER_IDS[8], "影视歌");
+		vnewsMap.put(PARSER_IDS[9], "财经");
+		vnewsMap.put(PARSER_IDS[10], "股票");
+		vnewsMap.put(PARSER_IDS[11], "彩票");
+		vnewsMap.put(PARSER_IDS[12], "体育");
+		vnewsMap.put(PARSER_IDS[13], "科技");
+		vnewsMap.put(PARSER_IDS[14], "手机");
+		vnewsMap.put(PARSER_IDS[15], "数码");
+		vnewsMap.put(PARSER_IDS[16], "智能");
+		vnewsMap.put(PARSER_IDS[17], "轻松一刻");
+		vnewsMap.put(PARSER_IDS[18], "独家");
+		vnewsMap.put(PARSER_IDS[19], "汽车");
+		vnewsMap.put(PARSER_IDS[20], "房产");
+		vnewsMap.put(PARSER_IDS[21], "家居");
+		vnewsMap.put(PARSER_IDS[22], "游戏");
+		vnewsMap.put(PARSER_IDS[23], "旅游");
+		vnewsMap.put(PARSER_IDS[24], "健康");
+		vnewsMap.put(PARSER_IDS[25], "教育");
+		vnewsMap.put(PARSER_IDS[26], "时尚");
+		vnewsMap.put(PARSER_IDS[27], "女人");
+		vnewsMap.put(PARSER_IDS[28], "政务");
+		vnewsMap.put(PARSER_IDS[29], "艺术");
+	}
 }
